@@ -1,0 +1,93 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #ffe6f0;
+  color: #a64d79;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://i.pinimg.com/originals/9b/f5/aa/9bf5aaf6177b46b16c7de842aa1e5b25.jpg');
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.page {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.85);
+  margin: 30px;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+.hidden {
+  display: none;
+}
+
+input, textarea, button {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid #ffb3d9;
+  font-size: 16px;
+}
+
+button {
+  background-color: #ff99cc;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #ff66a3;
+}
+
+h1, h2, h3 {
+  background-color: rgba(255, 255, 255, 0.6);
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+
+.button-group {
+  margin-top: 20px;
+}
+
+.section {
+  margin-top: 20px;
+}
+
+#single-image-preview img,
+#gallery-images img {
+  width: 200px;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.teddies img {
+  width: 150px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(3, 60px);
+  gap: 10px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.keypad button {
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  border-radius: 50%;
+  border: none;
+  background-color: #ffb6d9;
+}
+
+#code-display {
+  font-size: 32px;
+  letter-spacing: 10px;
+  margin: 10px 0;
+}
